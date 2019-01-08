@@ -1,2 +1,2 @@
 # dotfiles
-My personal dot files (no sensitive data)
+My personal dotfiles (no sensitive data)
