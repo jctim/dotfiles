@@ -1,0 +1,78 @@
+// Place your settings in this file to overwrite the default settings
+{
+  // === common ===
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "extensions.ignoreRecommendations": false,
+  "zenMode.centerLayout": false,
+  "files.autoSave": "onFocusChange",
+  "explorer.autoReveal": false,
+  
+  // === window and workbench ===
+  "window.titleBarStyle": "custom",
+  "window.nativeTabs": true,
+  "window.zoomLevel": 0,
+  "window.restoreFullscreen": true,
+  "window.restoreWindows": "none",
+  "window.openFilesInNewWindow": "on",
+
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "file-icons",
+  "workbench.activityBar.visible": true, // default: true
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorTheme": "Default Light+",
+  "workbench.colorCustomizations": {
+    "selection.background": "#ff8800e0",
+    "editor.selectionBackground": "#ff8800e0"
+  },
+  
+  // === editor ===
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 12,
+  "editor.fontFamily": "Fira Code", // "Fira Code" or "Monoid"
+  "editor.fontLigatures": true,
+  "editor.tabSize": 4, // default: 4
+  "editor.detectIndentation": true, // default: true
+  "editor.glyphMargin": true, // true - for break points, false - for more space
+  "editor.smoothScrolling": true,
+  "editor.scrollBeyondLastLine": false,
+  
+  // === terminal ===
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  
+  // === git ===
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  
+  // === extension: markdown ===
+  "markdown.extension.toc.unorderedList.marker": "*",
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.extension.toc.updateOnSave": false,
+  "markdown.extension.toc.tabSize": "4",
+  
+  // === extension: other ===
+  "todohighlight.isEnable": true
+  
+  // === language: python ===
+  "python.pythonPath": "/usr/local/bin/python3",
+  //   "python.autoComplete.preloadModules": [
+  //     "numpy",
+  //     "pandas",
+  //     "matplotlib"
+  //   ],
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.jediEnabled": false,
+  "python.autoComplete.addBrackets": false,
+  "python.formatting.autopep8Args": [
+    "--max-line-length=160"
+  ],
+  
+  // === language: typescript ===
+  "typescript.surveys.enabled": false,
+  
+  // === language: java, gradle etc. ===
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "gradle.useCommand": "gradle"
+}

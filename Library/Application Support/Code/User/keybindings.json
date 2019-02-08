@@ -1,0 +1,35 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+space",
+    "command": "editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+space",
+    "command": "-editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
+  },
+  {
+    "key": "ctrl+alt+cmd+p",
+    "command": "python.execInTerminal"
+  }
+]
