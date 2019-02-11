@@ -1,9 +1,13 @@
 {
   /* Changes home/end keys to a sane behaviour */
-  "\UF729" = "moveToBeginningOfLine:";                    /* home */
-  "\UF72B" = "moveToEndOfLine:";                          /* end */
-  "$\UF729" = "moveToBeginningOfLineAndModifySelection:"; /* shift + home */
-  "$\UF72B" = "moveToEndOfLineAndModifySelection:";       /* shift + end */
+  "\UF729" = "moveToBeginningOfLine:";                       /* home */
+  "\UF72B" = "moveToEndOfLine:";                             /* end */
+  "$\UF729" = "moveToBeginningOfLineAndModifySelection:";    /* shift + home */
+  "$\UF72B" = "moveToEndOfLineAndModifySelection:";          /* shift + end */
+  "^\UF729" = moveToBeginningOfDocument:;                    /* ctrl-home */
+  "^\UF72B" = moveToEndOfDocument:;                          /* ctrl-end */
+  "^$\UF729" = moveToBeginningOfDocumentAndModifySelection:; /* ctrl-shift-home */
+  "^$\UF72B" = moveToEndOfDocumentAndModifySelection:;       /* ctrl-shift-end */
 
   /* Changes pgup/pgdn keys to sane behaviour */
   "\UF72C" = "pageUp:";                      /* pgup */
